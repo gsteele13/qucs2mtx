@@ -8,8 +8,7 @@ import time as time
 args = sys.argv
 print('Processing file: %s' % str(args[1]))
 
-#filename=args[1]
-filename='capacitive.dat'
+filename=args[1]
 qucs_data = pr.parse_file(str(filename))
 
 if len(sys.argv) < 3:
